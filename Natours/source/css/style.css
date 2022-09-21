@@ -35,3 +35,32 @@ body {
 .logo {
     height: 35px;
 }
+
+.hero-header-text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*discounting element size for centering*/
+}
+
+/* Header text container*/
+.hero-header-text {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Header main title*/
+.hero-header-title {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+}
+
+/* Header main subtitle */
+.hero-header-subtitle {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+}
