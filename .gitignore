@@ -1,0 +1,6 @@
+#Project-wide
+.DS_Store
+
+#Final and starting project files to be ignored
+final/
+starter/
