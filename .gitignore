@@ -4,3 +4,7 @@
 #Final and starting project files to be ignored
 final/
 starter/
+
+#Node.js NPM files
+node_modules/
+package-lock.json
