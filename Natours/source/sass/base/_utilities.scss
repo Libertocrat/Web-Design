@@ -1,8 +1,20 @@
-.u-center-text { text-align: center; }
+/*** UTILITIES ***/
+/* This classes use the !important directive, since when use use them they must be always applied */ 
 
-.u-margin-bottom-small { margin-bottom: 1.5rem; }
-.u-margin-bottom-medium { margin-bottom: 4rem; }
-.u-margin-bottom-big { margin-bottom: 8rem; }
+/*** ALINGNMENT ***/
+.u-center-text { text-align: center !important;}
+.u-left-text { text-align: left !important;}
+.u-right-text { text-align: right !important;}
 
-.u-margin-top-big { margin-top: 8rem; }
-.u-margin-top-huge { margin-top: 10rem; }
+/*** MARGINS ***/
+
+/*** BOTTOM MARGINS ***/
+.u-margin-bottom-small { margin-bottom: 1.5rem !important;}
+.u-margin-bottom-medium { margin-bottom: 4rem !important;}
+.u-margin-bottom-big { margin-bottom: 8rem !important;}
+.u-margin-bottom-huge { margin-bottom: 10rem !important;}
+/*** TOP MARGINS ***/
+.u-margin-top-small { margin-top: 1.5rem !important;}
+.u-margin-top-medium { margin-top: 4rem !important;}
+.u-margin-top-big { margin-top: 8rem !important;}
+.u-margin-top-huge { margin-top: 10rem !important;}
